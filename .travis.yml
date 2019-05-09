@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+  - node
+os:
+- osx
+- linux
+- windows
+script:
+- node pass.js
+- node fail.js
