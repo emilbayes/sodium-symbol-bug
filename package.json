@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "install": "npm --prefix=module-1 install && npm --prefix=module-2 install"
+  }
+}
